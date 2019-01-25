@@ -2,7 +2,7 @@
   "expo": {
     "name": "old",
     "slug": "old",
-    "sdkVersion": "23.0.0",
+    "sdkVersion": "24.0.0",
     "version": "1.0.0",
     "orientation": "portrait"
   }
