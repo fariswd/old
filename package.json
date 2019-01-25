@@ -11,5 +11,8 @@
     "react": "16.2.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "exp": "^57.2.1"
+  }
 }
