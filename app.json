@@ -4,6 +4,23 @@
     "slug": "old",
     "sdkVersion": "22.0.0",
     "version": "1.0.0",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "isDetached": true,
+    "detach": {
+      "scheme": "expc0eba5e006624b7190b20ae21a4ab5a6",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.0.4-sdk22.0.0-10110e7c-e9b1-43e6-b7e0-8a0e971480e8.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.0.0-sdk22.0.0-7432f75c-05a1-4826-a456-02875e338222.tar.gz"
+    },
+    "scheme": "expc0eba5e006624b7190b20ae21a4ab5a6",
+    "ios": {
+      "bundleIdentifier": "com.fariswdev.old",
+      "publishBundlePath": "ios/old/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/old/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.fariswdev.old",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
   }
 }
