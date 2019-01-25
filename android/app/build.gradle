@@ -36,6 +36,7 @@ android {
   }
   dexOptions {
     javaMaxHeapSize System.getenv("DISABLE_DEX_MAX_HEAP") ? null : "8g"
+    keepRuntimeAnnotatedClasses false
   }
   productFlavors {
     // Define separate dev and prod product flavors.
@@ -43,10 +44,10 @@ android {
       // dev utilizes minSDKVersion = 21 to allow the Android gradle plugin
       // to pre-dex each module and produce an APK that can be tested on
       // Android Lollipop without time consuming dex merging processes.
-      minSdkVersion 21
+      minSdkVersion 19
     }
     devRemoteKernel {
-      minSdkVersion 21
+      minSdkVersion 19
     }
     dev19 {
       // For debugging / development on older SDK versions. Increases build
