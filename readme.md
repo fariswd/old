@@ -15,7 +15,8 @@ npm: 5.6.0
 yarn: 1.6.0  
 exp: 57.2.0  
 expo: 2.6.14  
-XDE: 2.24.4  
+XDE: 2.24.4 https://drive.google.com/open?id=1vxwLAT9tMzlOhai6YUEkqngnXQeTaEaD  
+expo APK: https://www.apkmonk.com/download-app/host.exp.exponent/5_host.exp.exponent_2018-05-15.apk/
 
 Me test only Android.  
 fariswd 2019  
