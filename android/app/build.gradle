@@ -58,6 +58,19 @@ android {
       minSdkVersion 19
     }
   }
+  signingConfigs {
+    debug {
+      storeFile file('../debug.keystore')
+    }
+    release {
+      if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+        storeFile file(MYAPP_RELEASE_STORE_FILE)
+        storePassword MYAPP_RELEASE_STORE_PASSWORD
+        keyAlias MYAPP_RELEASE_KEY_ALIAS
+        keyPassword MYAPP_RELEASE_KEY_PASSWORD
+      }
+    }
+  }
   buildTypes {
     debug {
       debuggable true
@@ -66,11 +79,7 @@ android {
       minifyEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
       zipAlignEnabled true
-    }
-  }
-  signingConfigs {
-    debug {
-      storeFile file('../debug.keystore')
+      signingConfig signingConfigs.release
     }
   }
   lintOptions {
