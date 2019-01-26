@@ -5,7 +5,7 @@ If you want to use detach/eject -ed expo will works on android kitkat, I recomen
 ## Works Detach / Eject
 sdk 22 https://github.com/fariswd/old/tree/sdk22-detach  
 sdk 25 https://github.com/fariswd/old/tree/sdk25-detach  
-sdk 26 https://github.com/fariswd/old/tree/sdk25-detach  
+sdk 26 https://github.com/fariswd/old/tree/sdk26-detach  
 
 ## Does not work
 sdk 23 https://github.com/fariswd/old/tree/sdk23  
