@@ -6,4 +6,4 @@ npm-debug.*
 *.key
 *.mobileprovision
 android/build
-android/app
+android/app/build
