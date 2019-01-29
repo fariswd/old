@@ -1,50 +1,42 @@
 {
   "project_info": {
-    "project_id": "exponent-5dd6d",
-    "project_number": "367315174693",
-    "name": "Exponent Play Services"
+    "project_number": "411753779013",
+    "firebase_url": "https://e-mas-26ff5.firebaseio.com",
+    "project_id": "e-mas-26ff5",
+    "storage_bucket": "e-mas-26ff5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:367315174693:android:f968efbb41d1fa7a",
-        "client_id": "android:host.exp.exponent",
-        "client_type": 1,
+        "mobilesdk_app_id": "1:411753779013:android:b0cdb688a6ecb3a4",
         "android_client_info": {
-          "package_name": "com.fariswdev.old",
-          "certificate_hash": ""
+          "package_name": "com.fariswdev.old"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "411753779013-gcb21uhqkju9c1rc2d9mlgq10fn7870a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": ""
+          "current_key": "AIzaSyB8Z63ny7lwAKcDDShEDdQHoXBOmoferQM"
         }
       ],
       "services": {
         "analytics_service": {
-          "status": 2,
-          "analytics_property": {
-            "tracking_id": "UA-76673608-1"
-          }
-        },
-        "cloud_messaging_service": {
-          "status": 2,
-          "apns_config": []
+          "status": 1
         },
         "appinvite_service": {
           "status": 1,
           "other_platform_oauth_client": []
         },
-        "google_signin_service": {
-          "status": 1
-        },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }
   ],
-  "client_info": [],
-  "ARTIFACT_VERSION": "1"
+  "configuration_version": "1"
 }
